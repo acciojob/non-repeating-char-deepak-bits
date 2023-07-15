@@ -7,7 +7,7 @@ function firstNonRepeatChar(str) {
     for(let char of str) {
         if(map[char] === 1) return char;
     }
-
+	return null;
 }
 
 const str = prompt('Enter a string');
