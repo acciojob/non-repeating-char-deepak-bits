@@ -9,3 +9,6 @@ function firstNonRepeatChar(str) {
     }
     return 'a';
 }
+
+const str = prompt('Enter a string');
+alert(firstNonRepeatChar(str));
